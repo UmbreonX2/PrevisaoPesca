@@ -1,0 +1,14 @@
+{
+  "name": "previsao_pesca",
+  "version": "1.0.0",
+  "description": "api que mostrara os melhores dias para pescar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7"
+  }
+}

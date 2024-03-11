@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="style.css">
+    <title>Previsão de Pesca</title>
+</head>
+<body>
+    <div class="container">
+        <div class="procurar">
+            <i class="fa-solid fa-location-dot"></i> 
+            <input type="text" placeholder="Insira sua localização">
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+        <div class="not-found">
+            <img src="images/404.png">
+            <p>Oops! Localização invalida</p>
+        </div>
+
+        <div class="weather-box">
+            <img src="">
+            <p class="temperatura"></p>
+            <p class="descricao"></p>
+        </div>
+        
+
+        <div class="weather-details">
+            <div class="umidade">
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Umidade</p>
+                </div>
+            </div>
+        
+
+            <div class="vento">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Velocidade do Vento</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+ 
+    <script src="https://kit.fontawesome.com/5635451078.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="module" src="./main.js"></script>
+</body>
+</html> 
